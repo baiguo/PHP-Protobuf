@@ -4,6 +4,12 @@ Protocol Buffers 是一种轻便高效的结构化数据存储格式，可用于
 
 官方不支持PHP，不用担心，高手在民间。上Github搜索一下就有了。
 
+liunx 访问上级目录是 ../
+比如：
+php ../php-protobuf-master/protoc-gen-php.php message.proto
+在最新的版本中， 执行protoc的是 protoc-gen-php.php
+
+
 安装protobuf
 wget http://protobuf.googlecode.com/files/protobuf-2.4.1.tar.bz2
 tar -jxvf protobuf-2.4.1.tar.bz2 
@@ -211,10 +217,7 @@ helloxxx@foxmail.com
 
 
 
-liunx 访问上级目录是 ../
-比如：
-php ../php-protobuf-master/protoc-gen-php.php message.proto
-在最新的版本中， 执行protoc的是 protoc-gen-php.php
+
 
 
 
