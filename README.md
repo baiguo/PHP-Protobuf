@@ -208,3 +208,14 @@ helloxxx@foxmail.com
 2
 1351010xxxx
 ------------------------
+
+
+
+liunx 访问上级目录是 ../
+比如：
+php ../php-protobuf-master/protoc-gen-php.php message.proto
+在最新的版本中， 执行protoc的是 protoc-gen-php.php
+
+
+
+
